@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sweet Bunny Pole</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: url('fondo.jpg') no-repeat center center / cover;
+      font-family: 'Inter', sans-serif;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      position: relative;
+    }
+
+    body::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: rgba(0, 0, 0, 0.6);
+      z-index: 0;
+    }
+
+    h1, .subtitle, .buttons, .note {
+      z-index: 1;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+
+    .subtitle {
+      font-size: 1.3rem;
+      margin-bottom: 2rem;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 1rem;
+      margin-bottom: 2rem;
+    }
+
+    .buttons a {
+      padding: 0.8rem 1.5rem;
+      border-radius: 25px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s;
+      color: white;
+      background: rgba(255, 255, 255, 0.1);
+    }
+
+    .buttons a:hover {
+      background: rgba(255, 255, 255, 0.3);
+    }
+
+    .note {
+      margin-top: 1.5rem;
+      font-size: 0.95rem;
+      color: #ccc;
+    }
+
+    .note a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1>Sweet Bunny Pole</h1>
+  <p class="subtitle">Pole dance • Exotic flow • Fitness</p>
+
+  <div class="buttons">
+    <a href="https://www.instagram.com/polemt15/" target="_blank">Instagram</a>
+    <a href="mailto:piar@dianarider.com">Contact</a>
+  </div>
+
+  <p class="note">
+    📩 For collaborations or inquiries, message me on 
+    <a href="https://www.instagram.com/polemt15/" target="_blank">Instagram</a>.
+  </p>
+</body>
+</html>
