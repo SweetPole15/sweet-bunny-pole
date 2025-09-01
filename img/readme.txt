@@ -1,0 +1,1 @@
+Coloca tu fondo.jpg aquí.
